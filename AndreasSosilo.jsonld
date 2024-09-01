@@ -1,31 +1,37 @@
 {
   "@context": {
     "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
-    "CIPQQQ": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-QQQ/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
     "hashAlgorithm": "CIP100:hashAlgorithm",
     "body": {
-      "@id": "CIPQQQ:body",
+      "@id": "CIP119:body",
       "@context": {
         "references": {
-          "@id": "CIPQQQ:references",
+          "@id": "CIP119:references",
           "@container": "@set",
           "@context": {
             "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP100:IdentityReference",
+            "Link": "CIP100:LinkReference",
             "Other": "CIP100:OtherReference",
             "label": "CIP100:reference-label",
             "uri": "CIP100:reference-uri",
             "referenceHash": {
-              "@id": "CIPQQQ:referenceHash",
+              "@id": "CIP119:referenceHash",
               "@context": {
-                "hashDigest": "CIPQQQ:hashDigest",
+                "hashDigest": "CIP119:hashDigest",
                 "hashAlgorithm": "CIP100:hashAlgorithm"
               }
             }
           }
         },
-        "dRepName": "CIPQQQ:dRepName",
-        "bio": "CIPQQQ:bio",
-        "email": "CIPQQQ:email"
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
       }
     },
     "authors": {
@@ -47,9 +53,11 @@
   "authors": [],
   "hashAlgorithm": "blake2b-256",
   "body": {
-    "bio": "Software Developer, Cardano Ambassador Moderator, Atala PRISM Pioneer, Member of Intersect MBO, active in Project Catalyst since Fund3, Host of community-led event Cardano Summit 2022 Jakarta, building Indonesian Cardano Community since 2020",
-    "dRepName": "AndreasSosilo",
-    "email": "andreas@preview.drep.com",
+    "givenName": "AndreasSosilo",
+    "motivations": "I would like to be a DRep to help people who do not have time to check and vote for any Governance Action but still want to use their voting right to make Cardano better. My background is in software development and I have been active in Cardano & Project Catalyst for the last 4+ years.",
+    "objectives": "Software Developer, Cardano Ambassador Moderator, Atala PRISM Pioneer, Member of Intersect MBO, active in Project Catalyst since Fund3, Host of community-led event Cardano Summit 2022 Jakarta, building Indonesian Cardano Community since 2020",
+    "paymentAddress": "addr_test1qqjvsywjh6glndvmq03khtkvjj3ju0jn8ymqdnjmshpcqj6ns2zacj88tkee236gpqzqezfuz60jkrxr8l4xd92gx3qqah6mpv",
+    "qualifications": "Plutus Pioneer Program 1st cohort, Atala PRISM Pioneer Program 1st cohort, Cardano Ambassador Translator / Moderator / Meetup Organizer, been in Project Catalyst since Fund3 (voter, funded proposer, community reviewer, challenge team, milestone reviewer, etc.), knowledge in Cardano blockchain, host & speaker for Cardano Summit community-led event from 2021 until 2023 in Jakarta, Indonesia, building local Cardano Community and also Indonesian Cardano Developer Community",
     "references": [
       {
         "@type": "Other",
