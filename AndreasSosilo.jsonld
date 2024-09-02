@@ -55,9 +55,9 @@
   "body": {
     "givenName": "AndreasSosilo",
     "motivations": "I would like to be a DRep to help people who do not have time to check and vote for any Governance Action but still want to use their voting right to make Cardano better. My background is in software development and I have been active in Cardano & Project Catalyst for the last 4+ years.",
-    "objectives": "Software Developer, Cardano Ambassador Moderator, Atala PRISM Pioneer, Member of Intersect MBO, active in Project Catalyst since Fund3, Host of community-led event Cardano Summit 2022 Jakarta, building Indonesian Cardano Community since 2020",
-    "paymentAddress": "addr_test1qqjvsywjh6glndvmq03khtkvjj3ju0jn8ymqdnjmshpcqj6ns2zacj88tkee236gpqzqezfuz60jkrxr8l4xd92gx3qqah6mpv",
-    "qualifications": "Plutus Pioneer Program 1st cohort, Atala PRISM Pioneer Program 1st cohort, Cardano Ambassador Translator / Moderator / Meetup Organizer, been in Project Catalyst since Fund3 (voter, funded proposer, community reviewer, challenge team, milestone reviewer, etc.), knowledge in Cardano blockchain, host & speaker for Cardano Summit community-led event from 2021 until 2023 in Jakarta, Indonesia, building local Cardano Community and also Indonesian Cardano Developer Community",
+    "objectives": "My goals as a DRep are to help my local Indonesian community and global Cardano Community to use their voting rights for making a better decision for our Cardano blockchain. And also to support Cardano Community to be able doing their own Direct Voting and learn more about CIP-1694.",
+    "paymentAddress": "addr1qydy6clf8c05rxex4fyf7mkpp8j7rzxplsgrd50x69vj2u2nch8ygykzze4sgzaj7ken7r6lspjzcwj4knmu6qt2cytsgjvu4x",
+    "qualifications": "Cardano Ambassador Translator / Moderator / Meetup Organizer, Plutus Pioneer 1st cohort, Atala PRISM Pioneer 1st cohort, been in Project Catalyst since Fund3 (voter, funded proposer, community reviewer, challenge team, milestone reviewer, etc.), knowledge in Cardano blockchain, host & speaker for Cardano Summit community-led event from 2021 until 2023 in Jakarta, Indonesia, building local Cardano Community and also Indonesian Cardano Developer Community",
     "references": [
       {
         "@type": "Other",
@@ -67,7 +67,7 @@
       {
         "@type": "Other",
         "label": "Label",
-        "uri": "https://linktr.ee/cardanoindonesia"
+        "uri": "https://www.linkedin.com/in/andreassosilo/"
       }
     ]
   }
