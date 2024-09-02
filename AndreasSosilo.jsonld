@@ -1,18 +1,30 @@
 {
   "@context": {
+    "@language": "en-us",
     "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
     "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
     "hashAlgorithm": "CIP100:hashAlgorithm",
     "body": {
       "@id": "CIP119:body",
       "@context": {
+        "bio": "CIP119:bio",
+        "email": "CIP119:email",
+        "givenName": "CIP119:givenName",
+        "motivations": "CIP119:motivations",
+        "objectives": "CIP119:objectives",
+        "paymentAddress": "CIP119:paymentAddress",
+        "qualifications": "CIP119:qualifications",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject"
+          }
+        },
         "references": {
           "@id": "CIP119:references",
           "@container": "@set",
           "@context": {
             "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
-            "Identity": "CIP100:IdentityReference",
-            "Link": "CIP100:LinkReference",
             "Other": "CIP100:OtherReference",
             "label": "CIP100:reference-label",
             "uri": "CIP100:reference-uri",
@@ -24,14 +36,7 @@
               }
             }
           }
-        },
-        "paymentAddress": "CIP119:paymentAddress",
-        "givenName": "CIP119:givenName",
-        "image": "CIP119:image",
-        "objectives": "CIP119:objectives",
-        "motivations": "CIP119:motivations",
-        "qualifications": "CIP119:qualifications",
-        "doNotList": "CIP119:doNotList"
+        }
       }
     },
     "authors": {
@@ -50,24 +55,69 @@
       }
     }
   },
-  "authors": [],
-  "hashAlgorithm": "blake2b-256",
+  "authors": [
+    {
+      "witness": {
+        "publicKey": {
+          "@value": "a40101032720062158206ce613ba27d4ae20f2effbd0f140391e886f45a0514b05fbc162797792e8add7"
+        },
+        "signature": {
+          "@value": "84582aa201276761646472657373581d616e49dfb192709e71d84f1b45575ede673f12c659f69f36c960d89827a166686173686564f4584456657269667920445265702064726570316e6d336d706e6e767478766c6d7174376c706e736b6d30636c68746d376e676734706d37716b6c7634326a3571637668686e775840cd5963a8b6fe31905846abc763b1c9474c5bcd869336d5bd7db654a69358abafaef0bf4ca7d0f09a75aedb53533bca3686863a775b2f3acbcc7b4ac0d6ae3b06"
+        },
+        "witnessAlgorithm": {
+          "@value": "Ed25519"
+        }
+      }
+    }
+  ],
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
   "body": {
-    "givenName": "AndreasSosilo",
-    "motivations": "I would like to be a DRep to help people who do not have time to check and vote for any Governance Action but still want to use their voting right to make Cardano better. My background is in software development and I have been active in Cardano & Project Catalyst for the last 4+ years.",
-    "objectives": "My goals as a DRep are to help my local Indonesian community and global Cardano Community to use their voting rights for making a better decision for our Cardano blockchain. And also to support Cardano Community to be able doing their own Direct Voting and learn more about CIP-1694.",
-    "paymentAddress": "addr1qydy6clf8c05rxex4fyf7mkpp8j7rzxplsgrd50x69vj2u2nch8ygykzze4sgzaj7ken7r6lspjzcwj4knmu6qt2cytsgjvu4x",
-    "qualifications": "Cardano Ambassador Translator / Moderator / Meetup Organizer, Plutus Pioneer 1st cohort, Atala PRISM Pioneer 1st cohort, been in Project Catalyst since Fund3 (voter, funded proposer, community reviewer, challenge team, milestone reviewer, etc.), knowledge in Cardano blockchain, host & speaker for Cardano Summit community-led event from 2021 until 2023 in Jakarta, Indonesia, building local Cardano Community and also Indonesian Cardano Developer Community",
+    "bio": {
+      "@value": "Software Developer • Cardano Ambassador Translator / Moderator / Meetup Organizer • Atala PRISM Pioneer • Member of IntersectMBO  • Building 🇮🇩 Indonesian Cardano Community • DRep in Voltaire"
+    },
+    "email": {
+      "@value": "andreas.sosilo.drep@gmail.com"
+    },
+    "givenName": {
+      "@value": "AndreasSosilo"
+    },
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "https://ipfs.io/ipfs/QmRyQ5vKMrumPGTTtjEayumDgYrDHWzaoVKhEnnQrFZ7cK",
+      "sha256": "0a69a356dfdd8e854b6f145560d9f39de654fc912e0df42026af6bfc53d9ad3f"
+    },
+    "motivations": {
+      "@value": "I would like to be a DRep to help people who do not have time to check and vote for any Governance Action but still want to use their voting right to make Cardano better. My background is in software development and I have been active in Cardano & Project Catalyst for the last 4+ years."
+    },
+    "objectives": {
+      "@value": "My goals as a DRep are to help my local Indonesian community and global Cardano Community to use their voting rights for making a better decision for our Cardano blockchain. And also to support Cardano Community to be able doing their own Direct Voting and learn more about CIP-1694."
+    },
+    "paymentAddress": {
+      "@value": "addr1qydy6clf8c05rxex4fyf7mkpp8j7rzxplsgrd50x69vj2u2nch8ygykzze4sgzaj7ken7r6lspjzcwj4knmu6qt2cytsgjvu4x"
+    },
+    "qualifications": {
+      "@value": "Cardano Ambassador Translator / Moderator / Meetup Organizer, Plutus Pioneer 1st cohort, Atala PRISM Pioneer 1st cohort, been in Project Catalyst since Fund3 (voter, funded proposer, community reviewer, challenge team, milestone reviewer, etc.), knowledge in Cardano blockchain, host & speaker for Cardano Summit community-led event from 2021 until 2023 in Jakarta, Indonesia, building local Cardano Community and also Indonesian Cardano Developer Community"
+    },
     "references": [
       {
         "@type": "Other",
-        "label": "Label",
-        "uri": "https://x.com/andreassosilo"
+        "label": {
+          "@value": "X"
+        },
+        "uri": {
+          "@value": "https://x.com/andreassosilo"
+        }
       },
       {
         "@type": "Other",
-        "label": "Label",
-        "uri": "https://www.linkedin.com/in/andreassosilo/"
+        "label": {
+          "@value": "LinkedIn"
+        },
+        "uri": {
+          "@value": "https://www.linkedin.com/in/andreassosilo/"
+        }
       }
     ]
   }
