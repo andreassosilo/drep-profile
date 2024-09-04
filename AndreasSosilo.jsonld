@@ -62,7 +62,7 @@
           "@value": "a40101032720062158206ce613ba27d4ae20f2effbd0f140391e886f45a0514b05fbc162797792e8add7"
         },
         "signature": {
-          "@value": "84582aa201276761646472657373581d616e49dfb192709e71d84f1b45575ede673f12c659f69f36c960d89827a166686173686564f4584456657269667920445265702064726570316e6d336d706e6e767478766c6d7174376c706e736b6d30636c68746d376e676734706d37716b6c7634326a3571637668686e775840cd5963a8b6fe31905846abc763b1c9474c5bcd869336d5bd7db654a69358abafaef0bf4ca7d0f09a75aedb53533bca3686863a775b2f3acbcc7b4ac0d6ae3b06"
+          "@value": "845846a2012767616464726573735839016e49dfb192709e71d84f1b45575ede673f12c659f69f36c960d8982753c5ce4412c2166b040bb2f5b33f0f5f80642c3a55b4f7cd016ac117a166686173686564f4584456657269667920445265702064726570316e6d336d706e6e767478766c6d7174376c706e736b6d30636c68746d376e676734706d37716b6c7634326a3571637668686e77584097193b892b64cc9eabf66849c8f3fc3a09f9ed7ba39ce6568fab308966b42125678274cc9fbc2ac0c2a8d5871e00fd51d4e8ce528e5cbe6c886752453039d30a"
         },
         "witnessAlgorithm": {
           "@value": "Ed25519"
@@ -75,13 +75,13 @@
   },
   "body": {
     "bio": {
-      "@value": "Software Developer • Cardano Ambassador Translator / Moderator / Meetup Organizer • Atala PRISM Pioneer • Member of IntersectMBO  • Building 🇮🇩 Indonesian Cardano Community • DRep in Voltaire"
+      "@value": "Software Developer • Cardano Ambassador Translator / Moderator / Meetup Organizer • Atala PRISM Pioneer • Member of IntersectMBO  • Building 🇮🇩 Indonesian Cardano Community • Voltaire DRep"
     },
     "email": {
       "@value": "andreas.sosilo.drep@gmail.com"
     },
     "givenName": {
-      "@value": "AndreasSosilo"
+      "@value": "Andreas Sosilo"
     },
     "image": {
       "@type": "ImageObject",
@@ -89,16 +89,16 @@
       "sha256": "0a69a356dfdd8e854b6f145560d9f39de654fc912e0df42026af6bfc53d9ad3f"
     },
     "motivations": {
-      "@value": "I would like to be a DRep to help people who do not have time to check and vote for any Governance Action but still want to use their voting right to make Cardano better. My background is in software development and I have been active in Cardano & Project Catalyst for the last 4+ years."
+      "@value": "I am motivated to become a DRep on the Cardano blockchain to assist those who want to use their voting rights to improve Cardano but may not have the time to engage with every Governance Action. With over four years of active involvement in Cardano and Project Catalyst, combined with my background in software development, I bring a deep understanding of the ecosystem. My goal is to ensure that every vote contributes to a stronger, more innovative Cardano."
     },
     "objectives": {
-      "@value": "My goals as a DRep are to help my local Indonesian community and global Cardano Community to use their voting rights for making a better decision for our Cardano blockchain. And also to support Cardano Community to be able doing their own Direct Voting and learn more about CIP-1694."
+      "@value": "As a Delegated Representative (DRep), my main goals are to help the Indonesian and global Cardano communities use their voting rights wisely to make better decisions for our blockchain. I will support efforts to prevent misuse of the treasury and ensure funds are used properly. I’m also dedicated to helping the community learn about DRep, Direct Voting, Governance Actions and CIP-1694. Additionally, I will support builders who create important tools for Cardano developers, helping Cardano grow stronger."
     },
     "paymentAddress": {
-      "@value": "addr1qydy6clf8c05rxex4fyf7mkpp8j7rzxplsgrd50x69vj2u2nch8ygykzze4sgzaj7ken7r6lspjzcwj4knmu6qt2cytsgjvu4x"
+      "@value": "addr1qxecnlrnfyswg6epkfcsx2jaalnspdmkae08a06y2jl5pkxdtjgz8fvwhwr3tvscqrxd2256t424v06f3ce8jq4r4vmq5q25dn"
     },
     "qualifications": {
-      "@value": "Cardano Ambassador Translator / Moderator / Meetup Organizer, Plutus Pioneer 1st cohort, Atala PRISM Pioneer 1st cohort, been in Project Catalyst since Fund3 (voter, funded proposer, community reviewer, challenge team, milestone reviewer, etc.), knowledge in Cardano blockchain, host & speaker for Cardano Summit community-led event from 2021 until 2023 in Jakarta, Indonesia, building local Cardano Community and also Indonesian Cardano Developer Community"
+      "@value": "I am a Cardano Ambassador with experience as a Translator, Moderator, and Meetup Organizer. I was part of the first cohorts for both Plutus Pioneer and Atala PRISM Pioneer Program from IOG. Since Fund3, I've been active in Project Catalyst as a voter, funded proposer, community reviewer, challenge team, milestone reviewer and more. I have strong knowledge of the Cardano blockchain and have hosted and spoken at Cardano Summit community-led events in Jakarta from 2021 to 2023. Additionally, I am passionate about sharing knowledge on using open-source tools to build DApps and smart contracts on Cardano, while also growing the Indonesian Cardano Developer Community to increase the number of local developers."
     },
     "references": [
       {
@@ -113,10 +113,10 @@
       {
         "@type": "Other",
         "label": {
-          "@value": "LinkedIn"
+          "@value": "Telegram"
         },
         "uri": {
-          "@value": "https://www.linkedin.com/in/andreassosilo/"
+          "@value": "https://t.me/AndreasS_DRep_Discussion"
         }
       }
     ]
