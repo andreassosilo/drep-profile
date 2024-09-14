@@ -37,7 +37,15 @@
         "objectives": "CIP119:objectives",
         "motivations": "CIP119:motivations",
         "qualifications": "CIP119:qualifications",
-        "doNotList": "CIP119:doNotList"
+        "doNotList": "CIP119:doNotList",
+        comment: "CIP100:comment",
+        externalUpdates: {
+          @id: "CIP100:externalUpdates",
+          @context: {
+            title: "CIP100:update-title",
+            uri: "CIP100:update-uri"
+          }
+        }
       }
     },
     "authors": {
@@ -108,6 +116,12 @@
         "@type": "Identity",
         "label": "Cross-reference in X post",
         "uri": "https://x.com/andreassosilo/status/1830446934932254728"
+      }
+    ],
+    externalUpdates: [
+      {
+        title: "GitHub",
+        uri: "https://github.com/andreassosilo/drep-profile"
       }
     ]
   }
