@@ -1,31 +1,18 @@
 {
   "@context": {
-    "@language": "en-us",
     "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
     "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
     "hashAlgorithm": "CIP100:hashAlgorithm",
     "body": {
       "@id": "CIP119:body",
       "@context": {
-        "bio": "CIP119:bio",
-        "doNotList": "CIP119:doNotList",
-        "email": "CIP119:email",
-        "givenName": "CIP119:givenName",
-        "motivations": "CIP119:motivations",
-        "objectives": "CIP119:objectives",
-        "paymentAddress": "CIP119:paymentAddress",
-        "qualifications": "CIP119:qualifications",
-        "image": {
-          "@id": "CIP119:image",
-          "@context": {
-            "ImageObject": "https://schema.org/ImageObject"
-          }
-        },
         "references": {
           "@id": "CIP119:references",
           "@container": "@set",
           "@context": {
             "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
             "Other": "CIP100:OtherReference",
             "label": "CIP100:reference-label",
             "uri": "CIP100:reference-uri",
@@ -37,7 +24,14 @@
               }
             }
           }
-        }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
       }
     },
     "authors": {
@@ -56,90 +50,35 @@
       }
     }
   },
-  "authors": [
-    {
-      "witness": {
-        "publicKey": {
-          "@value": "a40101032720062158206ce613ba27d4ae20f2effbd0f140391e886f45a0514b05fbc162797792e8add7"
-        },
-        "signature": {
-          "@value": "845846a2012767616464726573735839016e49dfb192709e71d84f1b45575ede673f12c659f69f36c960d8982753c5ce4412c2166b040bb2f5b33f0f5f80642c3a55b4f7cd016ac117a166686173686564f4584456657269667920445265702064726570316e6d336d706e6e767478766c6d7174376c706e736b6d30636c68746d376e676734706d37716b6c7634326a3571637668686e77584097193b892b64cc9eabf66849c8f3fc3a09f9ed7ba39ce6568fab308966b42125678274cc9fbc2ac0c2a8d5871e00fd51d4e8ce528e5cbe6c886752453039d30a"
-        },
-        "witnessAlgorithm": {
-          "@value": "Ed25519"
-        }
-      }
-    }
-  ],
-  "hashAlgorithm": {
-    "@value": "blake2b-256"
-  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
   "body": {
-    "bio": {
-      "@value": "Software Developer • Cardano Ambassador Translator / Moderator / Meetup Organizer • Atala PRISM Pioneer • Member of IntersectMBO  • Building 🇮🇩 Indonesian Cardano Community • DRep in Voltaire"
-    },
-    "doNotList": {
-      "@value": "false"
-    },
-    "email": {
-      "@value": "andreas.sosilo.drep@gmail.com"
-    },
-    "givenName": {
-      "@value": "Andreas Sosilo"
-    },
-    "image": {
-      "@type": "ImageObject",
-      "contentUrl": "https://ipfs.io/ipfs/QmRyQ5vKMrumPGTTtjEayumDgYrDHWzaoVKhEnnQrFZ7cK",
-      "sha256": "0a69a356dfdd8e854b6f145560d9f39de654fc912e0df42026af6bfc53d9ad3f"
-    },
-    "motivations": {
-      "@value": "I am motivated to become a DRep on the Cardano blockchain to assist those who want to use their voting rights to improve Cardano but may not have the time to engage with every Governance Action. With over four years of active involvement in Cardano and Project Catalyst, combined with my background in software development, I bring a deep understanding of the ecosystem. My goal is to ensure that every vote contributes to a stronger, more innovative Cardano."
-    },
-    "objectives": {
-      "@value": "As a Delegated Representative (DRep), my main goals are to help the Indonesian and global Cardano communities use their voting rights wisely to make better decisions for our blockchain. I will support efforts to prevent misuse of the treasury and ensure funds are used properly. I’m also dedicated to helping the community learn about DRep, Direct Voting, Governance Actions and CIP-1694. Additionally, I will support builders who create important tools for Cardano developers, helping Cardano grow stronger."
-    },
-    "paymentAddress": {
-      "@value": "addr1qxecnlrnfyswg6epkfcsx2jaalnspdmkae08a06y2jl5pkxdtjgz8fvwhwr3tvscqrxd2256t424v06f3ce8jq4r4vmq5q25dn"
-    },
-    "qualifications": {
-      "@value": "I am a Cardano Ambassador with experience as a Translator, Moderator, and Meetup Organizer. I was part of the first cohorts for both Plutus Pioneer and Atala PRISM Pioneer Program from IOG. Since Fund3, I've been active in Project Catalyst as a voter, funded proposer, community reviewer, challenge team, milestone reviewer and more. I have strong knowledge of the Cardano blockchain and have hosted and spoken at Cardano Summit community-led events in Jakarta from 2021 to 2023. Additionally, I am passionate about sharing knowledge on using open-source tools to build DApps and smart contracts on Cardano, while also growing the Indonesian Cardano Developer Community to increase the number of local developers."
-    },
+    "doNotList": false,
+    "givenName": "Andreas Sosilo",
+    "motivations": "I am motivated to become a DRep on the Cardano blockchain to assist those who want to use their voting rights to improve Cardano but may not have the time to engage with every Governance Action. With over four years of active involvement in Cardano and Project Catalyst, combined with my background in software development, I bring a deep understanding of the ecosystem. My goal is to ensure that every vote contributes to a stronger, more innovative Cardano.",
+    "objectives": "As a Delegated Representative (DRep), my main goals are to help the Indonesian and global Cardano communities use their voting rights wisely to make better decisions for our blockchain. I will support efforts to prevent misuse of the treasury and ensure funds are used properly. I’m also dedicated to helping the community learn about DRep, Direct Voting, Governance Actions and CIP-1694. Additionally, I will support builders who create important tools for Cardano developers, helping Cardano grow stronger.",
+    "paymentAddress": "addr1qxecnlrnfyswg6epkfcsx2jaalnspdmkae08a06y2jl5pkxdtjgz8fvwhwr3tvscqrxd2256t424v06f3ce8jq4r4vmq5q25dn",
+    "qualifications": "I am a Cardano Ambassador with experience as a Translator, Moderator, and Meetup Organizer. I was part of the first cohorts for both Plutus Pioneer and Atala PRISM Pioneer Program from IOG. Since Fund3, I've been active in Project Catalyst as a voter, funded proposer, community reviewer, challenge team, milestone reviewer and more. I have strong knowledge of the Cardano blockchain and have hosted and spoken at Cardano Summit community-led events in Jakarta from 2021 to 2023. Additionally, I am passionate about sharing knowledge on using open-source tools to build DApps and smart contracts on Cardano, while also growing the Indonesian Cardano Developer Community to increase the number of local developers.",
     "references": [
       {
-        "@type": "Other",
-        "label": {
-          "@value": "X"
-        },
-        "uri": {
-          "@value": "https://x.com/andreassosilo"
-        }
+        "@type": "Link",
+        "label": "X",
+        "uri": "https://x.com/andreassosilo"
       },
       {
-        "@type": "Other",
-        "label": {
-          "@value": "Telegram"
-        },
-        "uri": {
-          "@value": "https://t.me/AndreasS_DRep_Discussion"
-        }
+        "@type": "Link",
+        "label": "Telegram",
+        "uri": "https://t.me/AndreasS_DRep_Discussion"
       },
       {
-        "@type": "Other",
-        "label": {
-          "@value": "DRep_Introduction_In_Cardano_Forum"
-        },
-        "uri": {
-          "@value": "https://forum.cardano.org/t/andreas-sosilo-individual-introduction/135956"
-        }
+        "@type": "Identity",
+        "label": "DRep Introduction in Cardano Forum",
+        "uri": "https://forum.cardano.org/t/andreas-sosilo-individual-introduction/135956"
       },
       {
-        "@type": "Other",
-        "label": {
-          "@value": "Cross_Reference_In_X_Post"
-        },
-        "uri": {
-          "@value": "https://x.com/andreassosilo/status/1830446934932254728"
-        }
+        "@type": "Identity",
+        "label": "Cross-reference in X post",
+        "uri": "https://x.com/andreassosilo/status/1830446934932254728"
       }
     ]
   }
